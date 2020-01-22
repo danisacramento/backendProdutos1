@@ -1,0 +1,9 @@
+package br.com.sacramento.lojadeprodutos.model;
+
+public class Produto {
+	private int codigo;
+	private String titulo;
+	private String detalhes;
+	private float  preco;
+
+}

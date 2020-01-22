@@ -1,0 +1,16 @@
+package br.com.sacramento.lojadeprodutos.controller;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@CrossOrigin("*")
+public class UsuarioController {
+	
+	
+	@PostMapping("/login")
+	public ResponseEntity<Token> autenticarUsuario(){
+		
+	}
+
+}
